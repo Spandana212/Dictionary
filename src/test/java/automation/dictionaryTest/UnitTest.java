@@ -12,6 +12,7 @@ public class UnitTest {
 		
 		boolean result = Dictionary.isEnglishWord("row");
 		Assert.assertEquals(true, result);
+		System.out.println("test1");
 	}
 
 	
