@@ -20,6 +20,7 @@ public class Dictionary {
                 StringBuilder res = new StringBuilder();
                 int j = i + len - 1;
                 for (int k = i; k <= j; k++) {
+                    System.out.println("test message");
                     res.append(str[k]);
                 }
                 if (isEnglishWord(res.toString()))
